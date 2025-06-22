@@ -1,0 +1,21 @@
+
+name: alrc_radio_pro_app
+description: ALRC Radio Business - Flutter App
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.36
+  audio_service: ^0.18.8
+  audio_session: ^0.1.6
+  provider: ^6.0.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo_radio.png
